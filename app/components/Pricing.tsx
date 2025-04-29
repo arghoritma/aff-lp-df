@@ -286,7 +286,7 @@ export default function Pricing() {
                 <span className="text-xl text-gray-500 custom-cursor">
                   /tahun
                 </span>
-                <p className="text-sm text-gray-500 line-through custom-cursor">
+                <p className="text-sm font-bold text-gray-500 line-through custom-cursor">
                   Rp 1.200.000
                 </p>
                 <p className="text-sm text-green-600 custom-cursor">
@@ -364,6 +364,7 @@ export default function Pricing() {
             </p>
           </div>
         </div>
-      </div>    </section>
+      </div>{" "}
+    </section>
   );
 }
