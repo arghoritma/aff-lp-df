@@ -50,7 +50,7 @@ export default function Pricing() {
                   ></path>
                 </svg>
                 <span className="text-gray-700 custom-cursor">
-                  Akses Semua Fitur Inti
+                  Akses Semua Fitur Premium
                 </span>
               </li>
               <li className="flex items-center">
@@ -135,7 +135,7 @@ export default function Pricing() {
                   ></path>
                 </svg>
                 <span className="text-gray-700 custom-cursor">
-                  Akses Semua Fitur Inti
+                  Akses Semua Fitur Premium
                 </span>
               </li>
               <li className="flex items-center">
@@ -220,7 +220,7 @@ export default function Pricing() {
                   ></path>
                 </svg>
                 <span className="text-gray-700 custom-cursor">
-                  Akses Semua Fitur Inti
+                  Akses Semua Fitur Premium
                 </span>
               </li>
               <li className="flex items-center">
@@ -286,8 +286,11 @@ export default function Pricing() {
                 <span className="text-xl text-gray-500 custom-cursor">
                   /tahun
                 </span>
+                <p className="text-sm text-gray-500 line-through custom-cursor">
+                  Rp 1.200.000
+                </p>
                 <p className="text-sm text-green-600 custom-cursor">
-                  (Diskon 50%)
+                  Anda hemat Rp 600.000
                 </p>
               </div>
             </div>
@@ -308,7 +311,7 @@ export default function Pricing() {
                   ></path>
                 </svg>
                 <span className="text-gray-700 custom-cursor">
-                  Akses Semua Fitur Inti
+                  Akses Semua Fitur Premium
                 </span>
               </li>
               <li className="flex items-center">
@@ -361,7 +364,6 @@ export default function Pricing() {
             </p>
           </div>
         </div>
-      </div>
-    </section>
+      </div>    </section>
   );
 }
